@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TrDataSet" targetNamespace="http://tempuri.org/TrDataSet.xsd" xmlns:mstns="http://tempuri.org/TrDataSet.xsd" xmlns="http://tempuri.org/TrDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TrDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TrDataSet" msprop:Generator_UserDSName="TrDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TrHeaders" msprop:Generator_TableClassName="TrHeadersDataTable" msprop:Generator_TableVarName="tableTrHeaders" msprop:Generator_RowChangedName="TrHeadersRowChanged" msprop:Generator_TablePropName="TrHeaders" msprop:Generator_RowDeletingName="TrHeadersRowDeleting" msprop:Generator_RowChangingName="TrHeadersRowChanging" msprop:Generator_RowEvHandlerName="TrHeadersRowChangeEventHandler" msprop:Generator_RowDeletedName="TrHeadersRowDeleted" msprop:Generator_RowClassName="TrHeadersRow" msprop:Generator_UserTableName="TrHeaders" msprop:Generator_RowEvArgName="TrHeadersRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionID" msprop:Generator_ColumnVarNameInTable="columnTransactionID" msprop:Generator_ColumnPropNameInRow="TransactionID" msprop:Generator_ColumnPropNameInTable="TransactionIDColumn" msprop:Generator_UserColumnName="TransactionID" type="xs:string" minOccurs="0" />
+              <xs:element name="MemberID" msprop:Generator_ColumnVarNameInTable="columnMemberID" msprop:Generator_ColumnPropNameInRow="MemberID" msprop:Generator_ColumnPropNameInTable="MemberIDColumn" msprop:Generator_UserColumnName="MemberID" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeID" msprop:Generator_ColumnVarNameInTable="columnEmployeeID" msprop:Generator_ColumnPropNameInRow="EmployeeID" msprop:Generator_ColumnPropNameInTable="EmployeeIDColumn" msprop:Generator_UserColumnName="EmployeeID" type="xs:string" minOccurs="0" />
+              <xs:element name="TransactionDate" msprop:Generator_ColumnVarNameInTable="columnTransactionDate" msprop:Generator_ColumnPropNameInRow="TransactionDate" msprop:Generator_ColumnPropNameInTable="TransactionDateColumn" msprop:Generator_UserColumnName="TransactionDate" type="xs:string" minOccurs="0" />
+              <xs:element name="DiscountPercent" msprop:Generator_ColumnVarNameInTable="columnDiscountPercent" msprop:Generator_ColumnPropNameInRow="DiscountPercent" msprop:Generator_ColumnPropNameInTable="DiscountPercentColumn" msprop:Generator_UserColumnName="DiscountPercent" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TrDetails" msprop:Generator_TableClassName="TrDetailsDataTable" msprop:Generator_TableVarName="tableTrDetails" msprop:Generator_RowChangedName="TrDetailsRowChanged" msprop:Generator_TablePropName="TrDetails" msprop:Generator_RowDeletingName="TrDetailsRowDeleting" msprop:Generator_RowChangingName="TrDetailsRowChanging" msprop:Generator_RowEvHandlerName="TrDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="TrDetailsRowDeleted" msprop:Generator_RowClassName="TrDetailsRow" msprop:Generator_UserTableName="TrDetails" msprop:Generator_RowEvArgName="TrDetailsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionID" msprop:Generator_ColumnVarNameInTable="columnTransactionID" msprop:Generator_ColumnPropNameInRow="TransactionID" msprop:Generator_ColumnPropNameInTable="TransactionIDColumn" msprop:Generator_UserColumnName="TransactionID" type="xs:string" minOccurs="0" />
+              <xs:element name="FlowerID" msprop:Generator_ColumnVarNameInTable="columnFlowerID" msprop:Generator_ColumnPropNameInRow="FlowerID" msprop:Generator_ColumnPropNameInTable="FlowerIDColumn" msprop:Generator_UserColumnName="FlowerID" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:string" minOccurs="0" />
+              <xs:element name="SubTotal" msprop:Generator_ColumnVarNameInTable="columnSubTotal" msprop:Generator_ColumnPropNameInRow="SubTotal" msprop:Generator_ColumnPropNameInTable="SubTotalColumn" msprop:Generator_UserColumnName="SubTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="GrandTotal" msprop:Generator_ColumnVarNameInTable="columnGrandTotal" msprop:Generator_ColumnPropNameInRow="GrandTotal" msprop:Generator_ColumnPropNameInTable="GrandTotalColumn" msprop:Generator_UserColumnName="GrandTotal" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MsFlowers" msprop:Generator_TableClassName="MsFlowersDataTable" msprop:Generator_TableVarName="tableMsFlowers" msprop:Generator_RowChangedName="MsFlowersRowChanged" msprop:Generator_TablePropName="MsFlowers" msprop:Generator_RowDeletingName="MsFlowersRowDeleting" msprop:Generator_RowChangingName="MsFlowersRowChanging" msprop:Generator_RowEvHandlerName="MsFlowersRowChangeEventHandler" msprop:Generator_RowDeletedName="MsFlowersRowDeleted" msprop:Generator_RowClassName="MsFlowersRow" msprop:Generator_UserTableName="MsFlowers" msprop:Generator_RowEvArgName="MsFlowersRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FlowerID" msprop:Generator_ColumnVarNameInTable="columnFlowerID" msprop:Generator_ColumnPropNameInRow="FlowerID" msprop:Generator_ColumnPropNameInTable="FlowerIDColumn" msprop:Generator_UserColumnName="FlowerID" type="xs:string" minOccurs="0" />
+              <xs:element name="FlowerName" msprop:Generator_ColumnVarNameInTable="columnFlowerName" msprop:Generator_ColumnPropNameInRow="FlowerName" msprop:Generator_ColumnPropNameInTable="FlowerNameColumn" msprop:Generator_UserColumnName="FlowerName" type="xs:string" minOccurs="0" />
+              <xs:element name="FlowerTypeID" msprop:Generator_ColumnVarNameInTable="columnFlowerTypeID" msprop:Generator_ColumnPropNameInRow="FlowerTypeID" msprop:Generator_ColumnPropNameInTable="FlowerTypeIDColumn" msprop:Generator_UserColumnName="FlowerTypeID" type="xs:string" minOccurs="0" />
+              <xs:element name="FlowerPrice" msprop:Generator_ColumnVarNameInTable="columnFlowerPrice" msprop:Generator_ColumnPropNameInRow="FlowerPrice" msprop:Generator_ColumnPropNameInTable="FlowerPriceColumn" msprop:Generator_UserColumnName="FlowerPrice" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MsFlowerTypes" msprop:Generator_TableClassName="MsFlowerTypesDataTable" msprop:Generator_TableVarName="tableMsFlowerTypes" msprop:Generator_RowChangedName="MsFlowerTypesRowChanged" msprop:Generator_TablePropName="MsFlowerTypes" msprop:Generator_RowDeletingName="MsFlowerTypesRowDeleting" msprop:Generator_RowChangingName="MsFlowerTypesRowChanging" msprop:Generator_RowEvHandlerName="MsFlowerTypesRowChangeEventHandler" msprop:Generator_RowDeletedName="MsFlowerTypesRowDeleted" msprop:Generator_RowClassName="MsFlowerTypesRow" msprop:Generator_UserTableName="MsFlowerTypes" msprop:Generator_RowEvArgName="MsFlowerTypesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FlowerTypeID" msprop:Generator_ColumnVarNameInTable="columnFlowerTypeID" msprop:Generator_ColumnPropNameInRow="FlowerTypeID" msprop:Generator_ColumnPropNameInTable="FlowerTypeIDColumn" msprop:Generator_UserColumnName="FlowerTypeID" type="xs:string" minOccurs="0" />
+              <xs:element name="FlowerTypeName" msprop:Generator_ColumnVarNameInTable="columnFlowerTypeName" msprop:Generator_ColumnPropNameInRow="FlowerTypeName" msprop:Generator_ColumnPropNameInTable="FlowerTypeNameColumn" msprop:Generator_UserColumnName="FlowerTypeName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MsMembers" msprop:Generator_TableClassName="MsMembersDataTable" msprop:Generator_TableVarName="tableMsMembers" msprop:Generator_RowChangedName="MsMembersRowChanged" msprop:Generator_TablePropName="MsMembers" msprop:Generator_RowDeletingName="MsMembersRowDeleting" msprop:Generator_RowChangingName="MsMembersRowChanging" msprop:Generator_RowEvHandlerName="MsMembersRowChangeEventHandler" msprop:Generator_RowDeletedName="MsMembersRowDeleted" msprop:Generator_RowClassName="MsMembersRow" msprop:Generator_UserTableName="MsMembers" msprop:Generator_RowEvArgName="MsMembersRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MemberID" msprop:Generator_ColumnVarNameInTable="columnMemberID" msprop:Generator_ColumnPropNameInRow="MemberID" msprop:Generator_ColumnPropNameInTable="MemberIDColumn" msprop:Generator_UserColumnName="MemberID" type="xs:string" minOccurs="0" />
+              <xs:element name="MemberName" msprop:Generator_ColumnVarNameInTable="columnMemberName" msprop:Generator_ColumnPropNameInRow="MemberName" msprop:Generator_ColumnPropNameInTable="MemberNameColumn" msprop:Generator_UserColumnName="MemberName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MsEmployees" msprop:Generator_TableClassName="MsEmployeesDataTable" msprop:Generator_TableVarName="tableMsEmployees" msprop:Generator_RowChangedName="MsEmployeesRowChanged" msprop:Generator_TablePropName="MsEmployees" msprop:Generator_RowDeletingName="MsEmployeesRowDeleting" msprop:Generator_RowChangingName="MsEmployeesRowChanging" msprop:Generator_RowEvHandlerName="MsEmployeesRowChangeEventHandler" msprop:Generator_RowDeletedName="MsEmployeesRowDeleted" msprop:Generator_RowClassName="MsEmployeesRow" msprop:Generator_UserTableName="MsEmployees" msprop:Generator_RowEvArgName="MsEmployeesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmployeeID" msprop:Generator_ColumnVarNameInTable="columnEmployeeID" msprop:Generator_ColumnPropNameInRow="EmployeeID" msprop:Generator_ColumnPropNameInTable="EmployeeIDColumn" msprop:Generator_UserColumnName="EmployeeID" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeName" msprop:Generator_ColumnVarNameInTable="columnEmployeeName" msprop:Generator_ColumnPropNameInRow="EmployeeName" msprop:Generator_ColumnPropNameInTable="EmployeeNameColumn" msprop:Generator_UserColumnName="EmployeeName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="TrHeaders_TrDetails" msdata:parent="TrHeaders" msdata:child="TrDetails" msdata:parentkey="TransactionID" msdata:childkey="TransactionID" msprop:Generator_UserChildTable="TrDetails" msprop:Generator_ChildPropName="GetTrDetailsRows" msprop:Generator_UserRelationName="TrHeaders_TrDetails" msprop:Generator_RelationVarName="relationTrHeaders_TrDetails" msprop:Generator_UserParentTable="TrHeaders" msprop:Generator_ParentPropName="TrHeadersRow" />
+      <msdata:Relationship name="MsMembers_TrHeaders" msdata:parent="MsMembers" msdata:child="TrHeaders" msdata:parentkey="MemberID" msdata:childkey="MemberID" msprop:Generator_UserChildTable="TrHeaders" msprop:Generator_ChildPropName="GetTrHeadersRows" msprop:Generator_UserRelationName="MsMembers_TrHeaders" msprop:Generator_ParentPropName="MsMembersRow" msprop:Generator_RelationVarName="relationMsMembers_TrHeaders" msprop:Generator_UserParentTable="MsMembers" />
+      <msdata:Relationship name="MsEmployees_TrHeaders" msdata:parent="MsEmployees" msdata:child="TrHeaders" msdata:parentkey="EmployeeID" msdata:childkey="EmployeeID" msprop:Generator_UserChildTable="TrHeaders" msprop:Generator_ChildPropName="GetTrHeadersRows" msprop:Generator_UserRelationName="MsEmployees_TrHeaders" msprop:Generator_ParentPropName="MsEmployeesRow" msprop:Generator_RelationVarName="relationMsEmployees_TrHeaders" msprop:Generator_UserParentTable="MsEmployees" />
+      <msdata:Relationship name="MsFlowers_TrDetails" msdata:parent="MsFlowers" msdata:child="TrDetails" msdata:parentkey="FlowerID" msdata:childkey="FlowerID" msprop:Generator_UserChildTable="TrDetails" msprop:Generator_ChildPropName="GetTrDetailsRows" msprop:Generator_UserRelationName="MsFlowers_TrDetails" msprop:Generator_ParentPropName="MsFlowersRow" msprop:Generator_RelationVarName="relationMsFlowers_TrDetails" msprop:Generator_UserParentTable="MsFlowers" />
+      <msdata:Relationship name="MsFlowerTypes_MsFlowers" msdata:parent="MsFlowerTypes" msdata:child="MsFlowers" msdata:parentkey="FlowerTypeID" msdata:childkey="FlowerTypeID" msprop:Generator_UserChildTable="MsFlowers" msprop:Generator_ChildPropName="GetMsFlowersRows" msprop:Generator_UserRelationName="MsFlowerTypes_MsFlowers" msprop:Generator_ParentPropName="MsFlowerTypesRow" msprop:Generator_RelationVarName="relationMsFlowerTypes_MsFlowers" msprop:Generator_UserParentTable="MsFlowerTypes" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
